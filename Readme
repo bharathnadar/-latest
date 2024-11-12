@@ -1,0 +1,21 @@
+# Sudoku Solver
+
+A web-based Sudoku Solver built with ReactJS, featuring a 9x9 grid where users can input initial Sudoku values, validate the entries, and solve the puzzle if the entries are valid. The project uses a backtracking algorithm to solve Sudoku puzzles and includes features like validation and error handling.
+
+## Features
+- 9x9 Sudoku Grid: Allows users to input numbers (1-9) or leave cells blank for unknown values.
+- Validate: Checks if the Sudoku grid entries are valid.
+- Solve: Solves the Sudoku puzzle using a backtracking algorithm.
+- Error Handling: Displays error messages if the grid is invalid or unsolvable.
+- Hints (Bonus): Provides hints for possible numbers in specific cells.
+
+## Tech Stack
+- **Frontend**: ReactJS
+- **Build Tool**: Vite
+
+## Setup Instructions
+npm install
+npm run dev
+
+
+
